@@ -1,0 +1,10 @@
+region                = "us-east-1"
+env                   = "prod"
+profile               = "infra"
+vpc_cidr              = "172.31.0.0/23"
+private_subnet_cidrs  = ["172.31.0.0/24"]
+public_subnet_cidrs   = ["172.31.1.0/24"]
+azs                   = ["us-east-1a"]
+bastion_ami_id        = "ami-01816d07b1128cd2d"
+bastion_instance_type = "t3.medium"
+project_name          = "init"
